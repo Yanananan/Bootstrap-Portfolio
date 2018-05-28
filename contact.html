@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Yanan Meng</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body class="bg-secondary">
+  <header class="navbar bg-light border-bottom border-dark m-0 p-0 row">
+    <div class="container-fluid p-0 col-md-6">
+      <div class="h1 mx-md-4 my-0 py-2 px-4 bg-primary col-md-12 col-lg-6">
+          <div class="text-white text-center text-nowrap">Yanan Meng</div>
+      </div>
+    </div>
+    <div class="container p-0 col-md-2"></div>
+    <div class="container p-0 col-md-4">
+        <div class="row m-0 p-0 container-fluid">
+          <div class="nav-item col-4">
+            <a class="nav-link text-dark text-center my-2 py-0" href="index.html">About</a>
+          </div>
+          <div class="nav-item col-4">
+            <a class="nav-link text-dark text-center my-2 py-0 border-left border-right border-dark" href="portfolio.html">Portfolio</a>
+          </div>
+          <div class="nav-item col-4">
+            <a class="nav-link text-dark text-center my-2 py-0" href="contact.html">Contact</a>
+          </div>
+        </div>
+        <!-- I do not understand coloring... why does bootstrap only offer 8 or so colors --> 
+    </div>
+    </header>
+  
+
+  <div class="container bg-light px-0 py-0 m-4 col-md-8 float-left">
+    <section>
+      <div class="h1 m-0 py-4 px-4 text-primary">Contact</div>
+        <div class="m-0 py-0 px-4">
+          <div class="py-4 border-top border-dark">
+            <form>
+              
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" placeholder="John Smith" required="required">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" placeholder="example@gmail.com" required="required">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" required="required"></textarea>
+                </div>
+              
+              <button type="button" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container-fluid bg-dark text-light small pt-5 border-top border-primary text-center fixed-bottom">
+      Copyright &copy; 
+      <!-- not sure how to do border thickness w/ bootstrap-->
+    </div>
+  </footer>
+</body>
+
+</html>
